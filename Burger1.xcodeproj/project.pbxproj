@@ -14,6 +14,10 @@
 		4D93119628FE72E2001DBDC3 /* Burger1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93119528FE72E2001DBDC3 /* Burger1Tests.swift */; };
 		4D9311A028FE72E2001DBDC3 /* Burger1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93119F28FE72E2001DBDC3 /* Burger1UITests.swift */; };
 		4D9311A228FE72E2001DBDC3 /* Burger1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9311A128FE72E2001DBDC3 /* Burger1UITestsLaunchTests.swift */; };
+		4D9311AF28FE73AF001DBDC3 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9311AE28FE73AF001DBDC3 /* Sandwich.swift */; };
+		4D9311B128FE73DC001DBDC3 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9311B028FE73DC001DBDC3 /* SandwichStore.swift */; };
+		4D9311B328FE7451001DBDC3 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9311B228FE7451001DBDC3 /* SandwichDetail.swift */; };
+		4D9311B528FE74B2001DBDC3 /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9311B428FE74B2001DBDC3 /* Sandwiches.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		4D93119B28FE72E2001DBDC3 /* Burger1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Burger1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D93119F28FE72E2001DBDC3 /* Burger1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger1UITests.swift; sourceTree = "<group>"; };
 		4D9311A128FE72E2001DBDC3 /* Burger1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D9311AE28FE73AF001DBDC3 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		4D9311B028FE73DC001DBDC3 /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
+		4D9311B228FE7451001DBDC3 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		4D9311B428FE74B2001DBDC3 /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,11 @@
 			children = (
 				4D93118328FE72E0001DBDC3 /* Burger1App.swift */,
 				4D93118528FE72E0001DBDC3 /* ContentView.swift */,
+				4D9311AE28FE73AF001DBDC3 /* Sandwich.swift */,
+				4D9311B028FE73DC001DBDC3 /* SandwichStore.swift */,
+				4D9311B228FE7451001DBDC3 /* SandwichDetail.swift */,
 				4D93118728FE72E2001DBDC3 /* Assets.xcassets */,
+				4D9311B428FE74B2001DBDC3 /* Sandwiches.xcassets */,
 				4D93118928FE72E2001DBDC3 /* Burger1.entitlements */,
 				4D93118A28FE72E2001DBDC3 /* Preview Content */,
 			);
@@ -233,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9311B528FE74B2001DBDC3 /* Sandwiches.xcassets in Resources */,
 				4D93118C28FE72E2001DBDC3 /* Preview Assets.xcassets in Resources */,
 				4D93118828FE72E2001DBDC3 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9311B128FE73DC001DBDC3 /* SandwichStore.swift in Sources */,
 				4D93118628FE72E0001DBDC3 /* ContentView.swift in Sources */,
 				4D93118428FE72E0001DBDC3 /* Burger1App.swift in Sources */,
+				4D9311B328FE7451001DBDC3 /* SandwichDetail.swift in Sources */,
+				4D9311AF28FE73AF001DBDC3 /* Sandwich.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
